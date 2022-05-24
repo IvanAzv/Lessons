@@ -51,8 +51,7 @@ body{font-family: 'Courier New', Courier, monospace;
 }
 
 .up_buttons_block{
-    text-transform: uppercase;
-    font-style: italic;
+    
     display:flex;
     align-content: space-between;
     
@@ -61,6 +60,8 @@ body{font-family: 'Courier New', Courier, monospace;
 .button_login{
     background: transparent;
     border: none;
+    text-transform: uppercase;
+    font-style: italic;
 
 }
 
@@ -69,6 +70,8 @@ body{font-family: 'Courier New', Courier, monospace;
     border: none;
     background-color: orangered;
     padding: 10px 30px;
+    text-transform: uppercase;
+    font-style: italic;
 
 }
 .fwp{
@@ -111,6 +114,22 @@ body{font-family: 'Courier New', Courier, monospace;
 
 .about{
     margin-right: 20px;
+}
+
+.content_block h2{
+    
+    font: italic ;
+    font-size: xx-large;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-top: 50px;
+    color: rgb(55, 57, 59);
+}
+.content_text p{
+    padding-top: 50px;
+    font-size: medium;
+    font-weight: 400;
+
 }
 
     
