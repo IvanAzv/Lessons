@@ -33,19 +33,21 @@ body{font-family: 'Courier New', Courier, monospace;
 .up_logo_block{
 
     background-color: white;
+    padding: 15px 0px;
     display: flex;
+    justify-content: space-between;
 }
 
 
 .logo_block{
-    height: 100px;
+    
     background-color: white;
     color: rgb(238, 21, 14);
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: bold;
-    display: flex;
-    align-items: center;
+   
+    
 }
 
 .up_buttons_block{
@@ -53,6 +55,21 @@ body{font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     display:flex;
     align-content: space-between;
+    
+}
+
+.button_login{
+    background: transparent;
+    border: none;
+
+}
+
+.button_contact{
+    color: white;
+    border: none;
+    background-color: orangered;
+    padding: 10px 30px;
+
 }
 .fwp{
     text-transform: lowercase;
