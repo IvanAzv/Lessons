@@ -22,50 +22,58 @@ time, mark, audio, video {
 body{font-family: 'Courier New', Courier, monospace;
     
 }
+.block_main_settings{
+    width: 75%;
+    margin: auto;
 
+}
 
 
 
 .up_logo_block{
 
     background-color: white;
+    display: flex;
 }
 
 
 .logo_block{
-    width: 75%;
-    margin: auto;
-    width: 1000px;
     height: 100px;
     background-color: white;
     color: rgb(238, 21, 14);
     text-transform: uppercase;
     font-size: xx-large;
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
 
+.up_buttons_block{
+    text-transform: uppercase;
+    font-style: italic;
+    display:flex;
+    align-content: space-between;
+}
+.fwp{
+    text-transform: lowercase;
+    color: grey;
+    font-size: xx-small;
+    font-style: italic;
+    margin-left: -1px;
+
+}
 
     
 
 
 .menu_block{
     background-color: rgb(55, 57, 59);
-    
+}
+
     
 
-}
-.menu_block_left_empty{
-    
-    width: 100px;
-    height: 100px;
-    float: left;
-    
-
-}
 .menu_block_list{
    
-    width: 1000px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -87,12 +95,7 @@ body{font-family: 'Courier New', Courier, monospace;
 .about{
     margin-right: 20px;
 }
-.menu_block_right_empty{
-    
-    width: 100px;
-    height: 100px;
-    float: right;
+
     
 
 
-}
