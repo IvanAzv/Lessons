@@ -19,7 +19,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-.body{
+body{font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -31,18 +31,13 @@ time, mark, audio, video {
     background-color: white;
 }
 
-.empty_left_side_logo_block{
-    
-    width: 100px;
-    height: 100px;
-    float: left;
-    
-}
 
 .logo_block{
+    width: 75%;
+    margin: auto;
     width: 1000px;
     height: 100px;
-    background-color: aqua;
+    background-color: white;
     color: rgb(238, 21, 14);
     text-transform: uppercase;
     font-size: xx-large;
@@ -52,17 +47,6 @@ time, mark, audio, video {
 
 
     
-
-
-
-.empty_right_side_logo_block{
-    width: 100px;
-    height: 100px;
-    float: right;
-    
-    
-
-}
 
 
 .menu_block{
