@@ -196,4 +196,8 @@ body{font-family: 'Courier New', Courier, monospace;
     .menu_list{
         display: block;
     }
+    .photo_block{
+        width: 100%;
+        display: block;
+    }
 }
