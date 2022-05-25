@@ -147,15 +147,23 @@ body{font-family: 'Courier New', Courier, monospace;
 
 /*відображення не з ліва, а ближче до центру*/
 .key_features_list{
-    display: flex;
-    align-items:flex-start;
+    display: inline-flex;
+    margin-left: 20px;
     padding-top: 15px;
 }
 
+.recent_news{
+    display: inline-flex;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 500;
+    font-size: small;
+}
 /*блок з фото*/
 .gallerey_block{
-    padding-top: 20px;
-    display: table;
+    padding-top: 15px;
+    display: inline-flex;
     
     
 }
@@ -176,7 +184,16 @@ body{font-family: 'Courier New', Courier, monospace;
 }
 
 .image_text{
+    
     min-height: 300px;
+    text-align: center;
 }    
 
-
+@media (max-width: 425px){
+    .up_logo_block{
+        display: block;
+    }
+    .menu_list{
+        display: block;
+    }
+}
