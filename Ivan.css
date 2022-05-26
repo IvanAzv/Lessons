@@ -164,14 +164,12 @@ body{font-family: 'Courier New', Courier, monospace;
 /*блок з фото*/
 .gallerey_block{
     padding-top: 15px;
-    display: inline-flex;
-    
     
 }
 
 .photo_block{
     width: 14%;
-    display: inline-block;
+    float: left;
     margin: 2px;
 }
 .image{
@@ -199,6 +197,5 @@ body{font-family: 'Courier New', Courier, monospace;
     }
     .photo_block{
         width: 100%;
-        display: block;
     }
 }
