@@ -105,17 +105,18 @@ body{font-family: 'Courier New', Courier, monospace;
     display: inline-flex;
     color: aliceblue;
     text-transform: uppercase;
+    
        
 }
 
+.menu_list li{
+    padding: 15px;
+}
 .home{
     background-color: orangered;
-    padding: 15px;
+    
 }
 
-.about{
-    padding: 15px;
-}
 
 .content_block h2{
     
