@@ -95,7 +95,7 @@ body{font-family: 'Courier New', Courier, monospace;
 
 .menu_block_list{
    
-    height: 100px;
+    
     display: flex;
     align-items: center;
     
@@ -110,11 +110,11 @@ body{font-family: 'Courier New', Courier, monospace;
 
 .home{
     background-color: orangered;
-    margin-right: 20px;
+    padding: 15px;
 }
 
 .about{
-    margin-right: 20px;
+    padding: 15px;
 }
 
 .content_block h2{
